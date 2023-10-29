@@ -1,0 +1,14 @@
+https://wallpaperaccess.com/full/8311840.jpg
+https://wallpapercave.com/wp/wp6080093.jpg
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR00V1-Xvs_clmjXo-CTdWIAtf_OR_wUX5epg&usqp=
+
+gsap.to("#jaboutus",{
+    backgroundColor: "#ffc1ff",
+    scrollTrigger:{
+        trigger:"#jaboutus",
+        scroller:"body",
+        start:"top -50%",
+        end:"top -90%",
+        scrub:2
+    }
+})
